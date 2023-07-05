@@ -73,3 +73,5 @@ Please refer to the backend/index.js file for the implementation details of thes
 Contributions are welcome! If you find any issues or would like to add new features, feel free to open a pull request.
 
 ## SnapShots 
+
+![Screenshot (278)](https://github.com/DishaGup/story-generator/assets/115460391/8fe33048-9620-4b82-9711-d6d927219c50)
