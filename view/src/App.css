@@ -1,0 +1,107 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  height: 100vh;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.keywords-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.keyword-pill {
+  display: flex;
+  align-items: center;
+  background-color: #f9c2ff;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.keyword-pill span {
+  margin-right: 5px;
+}
+
+.keyword-pill button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#keywords {
+  width: 200px;
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#language {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ffb6c1;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.loading {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.error {
+  margin-top: 20px;
+  color: red;
+  font-size: 20px;
+}
+
+.story-container {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
